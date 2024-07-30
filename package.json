@@ -1,0 +1,20 @@
+{
+  "dependencies": {
+    "@openzeppelin/contracts": "^5.0.2",
+    "@truffle/hdwallet-provider": "^2.1.15",
+    "dotenv": "^16.4.5",
+    "mocha": "^10.4.0",
+    "truffle": "^5.11.5",
+    "web3": "^4.9.0"
+  },
+  "devDependencies": {
+    "@openzeppelin/test-helpers": "^0.5.16",
+    "chai": "^5.0.3",
+    "eth-gas-reporter": "^0.2.27",
+    "ganache": "7.9.2",
+    "ganache-cli": "^6.12.2",
+    "solidity-coverage": "^0.7.16",
+    "truffle-contract-size": "^2.0.1",
+    "truffle-plugin-verify": "^0.6.7"
+  }
+}

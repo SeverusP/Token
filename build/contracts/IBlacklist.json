@@ -1,0 +1,180 @@
+{
+  "contractName": "IBlacklist",
+  "abi": [
+    {
+      "inputs": [
+        {
+          "internalType": "address",
+          "name": "account",
+          "type": "address"
+        }
+      ],
+      "name": "isBlacklisted",
+      "outputs": [
+        {
+          "internalType": "bool",
+          "name": "",
+          "type": "bool"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    }
+  ],
+  "metadata": "{\"compiler\":{\"version\":\"0.8.19+commit.7dd6d404\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[{\"internalType\":\"address\",\"name\":\"account\",\"type\":\"address\"}],\"name\":\"isBlacklisted\",\"outputs\":[{\"internalType\":\"bool\",\"name\":\"\",\"type\":\"bool\"}],\"stateMutability\":\"view\",\"type\":\"function\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"project:/contracts/interfaces/IBlacklist.sol\":\"IBlacklist\"},\"evmVersion\":\"paris\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":true,\"runs\":200},\"remappings\":[]},\"sources\":{\"project:/contracts/interfaces/IBlacklist.sol\":{\"keccak256\":\"0x449150220df90e1c64bcb58a59101edbe42c33e7f884aab7e37d08e2733f4d3b\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://d0cf006ce2123ca018253f2279928841dc98ee6cb421dcb1ac1074cd43653435\",\"dweb:/ipfs/QmegP9pW6ueHFgo1VQqEqT9NxHvUrt4aY5jn7bGQd7u6ox\"]}},\"version\":1}",
+  "bytecode": "0x",
+  "deployedBytecode": "0x",
+  "immutableReferences": {},
+  "generatedSources": [],
+  "deployedGeneratedSources": [],
+  "sourceMap": "",
+  "deployedSourceMap": "",
+  "source": "// SPDX-License-Identifier: MIT\npragma solidity ^0.8.19;\n\ninterface IBlacklist {\n    function isBlacklisted(address account) external view returns (bool); \n}",
+  "sourcePath": "/Users/francescodinardo/Token/contracts/interfaces/IBlacklist.sol",
+  "ast": {
+    "absolutePath": "project:/contracts/interfaces/IBlacklist.sol",
+    "exportedSymbols": {
+      "IBlacklist": [
+        1200
+      ]
+    },
+    "id": 1201,
+    "license": "MIT",
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 1192,
+        "literals": [
+          "solidity",
+          "^",
+          "0.8",
+          ".19"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "32:24:8"
+      },
+      {
+        "abstract": false,
+        "baseContracts": [],
+        "canonicalName": "IBlacklist",
+        "contractDependencies": [],
+        "contractKind": "interface",
+        "fullyImplemented": false,
+        "id": 1200,
+        "linearizedBaseContracts": [
+          1200
+        ],
+        "name": "IBlacklist",
+        "nameLocation": "68:10:8",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "functionSelector": "fe575a87",
+            "id": 1199,
+            "implemented": false,
+            "kind": "function",
+            "modifiers": [],
+            "name": "isBlacklisted",
+            "nameLocation": "94:13:8",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 1195,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 1194,
+                  "mutability": "mutable",
+                  "name": "account",
+                  "nameLocation": "116:7:8",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 1199,
+                  "src": "108:15:8",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_address",
+                    "typeString": "address"
+                  },
+                  "typeName": {
+                    "id": 1193,
+                    "name": "address",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "108:7:8",
+                    "stateMutability": "nonpayable",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_address",
+                      "typeString": "address"
+                    }
+                  },
+                  "visibility": "internal"
+                }
+              ],
+              "src": "107:17:8"
+            },
+            "returnParameters": {
+              "id": 1198,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 1197,
+                  "mutability": "mutable",
+                  "name": "",
+                  "nameLocation": "-1:-1:-1",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 1199,
+                  "src": "148:4:8",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_bool",
+                    "typeString": "bool"
+                  },
+                  "typeName": {
+                    "id": 1196,
+                    "name": "bool",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "148:4:8",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_bool",
+                      "typeString": "bool"
+                    }
+                  },
+                  "visibility": "internal"
+                }
+              ],
+              "src": "147:6:8"
+            },
+            "scope": 1200,
+            "src": "85:69:8",
+            "stateMutability": "view",
+            "virtual": false,
+            "visibility": "external"
+          }
+        ],
+        "scope": 1201,
+        "src": "58:99:8",
+        "usedErrors": []
+      }
+    ],
+    "src": "32:125:8"
+  },
+  "compiler": {
+    "name": "solc",
+    "version": "0.8.19+commit.7dd6d404.Emscripten.clang"
+  },
+  "networks": {},
+  "schemaVersion": "3.4.16",
+  "updatedAt": "2024-06-09T14:07:08.989Z",
+  "devdoc": {
+    "kind": "dev",
+    "methods": {},
+    "version": 1
+  },
+  "userdoc": {
+    "kind": "user",
+    "methods": {},
+    "version": 1
+  }
+}
